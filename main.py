@@ -39,7 +39,6 @@ completion = client.chat.completions.create(
     ],
 )
 
-
 # Print assistant text content with safe fallbacks
 # Izvada atbildi no modeļa
 msg = completion.choices[0].message
